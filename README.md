@@ -47,6 +47,9 @@
     * `duration` - INTEGER (example: 1:00 -> 60 seconds)
 
 
+### TO-DO List
+please refer [todo.md](todo.md)
+
 ### Mentor
 * [Bharat Naik](https://github.com/bharatanaik)
 
