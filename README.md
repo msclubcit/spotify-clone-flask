@@ -29,6 +29,38 @@
     * `admin/music/delete.html`
     * `admin/messages.html`
 
+### Database Tables
+
+* **Author**
+    * `username` - TEXT | PK
+    * `name` - TEXT 
+    * `socialhandle` - TEXT (example: Instagram handle)
+* **Album**
+    * `slug` - TEXT | PK
+    * `title` - TEXT
+    * `author` - FK (Author | name)
+* **Track**
+    * `slug` - TEXT
+    * `title` - TEXT
+    * `url` - TEXT
+    * `album` - FK (Album | title)
+    * `duration` - INTEGER (example: 1:00 -> 60 seconds)
+
+
+### Mentor
+* [Bharat Naik](https://github.com/bharatanaik)
+
+
+### Contributors (MSCLUB Volunteers)
+<!-- Task 1  -->
+<!-- Each contributor must fork this repository and add his/her name into this readme file and should make a pull request -->
+<!-- Example: [Timmy](https://github.com/timmyomahony) -->
+
+
+
+
+
+
 
 
 
