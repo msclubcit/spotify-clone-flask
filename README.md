@@ -1,4 +1,5 @@
 # Spotify Clone Application
+![Thumbnail](docs/images/thumnail.png)
 
 ## Requirements
 * Programming language: `Python`
