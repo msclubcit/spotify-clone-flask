@@ -40,7 +40,7 @@
     * `title` - TEXT
     * `author` - FK (Author | name)
 * **Track**
-    * `slug` - TEXT
+    * `slug` - TEXT | PK
     * `title` - TEXT
     * `url` - TEXT
     * `album` - FK (Album | title)
@@ -59,12 +59,3 @@
 * [Rithvik K](https://github.com/Rithvikbng)
 * [Dilip B](https://github.com/DILIP-SHEESH)
 * [Harshitha M](https://github.com/Harshitham1204)
-
-
-
-
-
-
-
-
-
