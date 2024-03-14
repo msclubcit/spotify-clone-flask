@@ -49,7 +49,7 @@
 
 
 ### TO-DO List
-please refer [Todo list](todos/todo.md)
+please refer [Todo list](docs/todos/todo.md)
 
 ### Mentor
 * [Bharat Naik](https://github.com/bharatanaik)
