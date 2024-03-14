@@ -1,4 +1,4 @@
-## Task 2 - Your first contribution
+## Task 2 - Creating static pages using Flask
 * Description - Displaying static html and css with bootstrap using Flask
 * Duration -  `1 day`
 * Difficulty -  `Easy level`
