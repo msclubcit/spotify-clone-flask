@@ -1,6 +1,4 @@
-# Todo List
-
-## Task 1 - Your first contribution
+# Task 1 - Your first contribution
 * Description - Git and github are very much useful when you are working as a team. 
 * Duration -  `24 hours`
 * Difficulty -  `Beginner level`
