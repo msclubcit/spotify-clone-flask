@@ -3,14 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% block title %}
-    
-    {% endblock title %}
+    <title>Spotify</title>
+    <link href=style.css rel="stylesheet">
 </head>
 <body>
-    <nav>Spotify</nav>
-    {% block content %}
-    
-    {% endblock content %}
+    <nav>Spotify
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand" href="#"> 
+        <img src="spotify.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Spotify</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Disclaimer</a>
+            </li>
+        </ul>
+    </div>
+    </nav>
 </body>
 </html>
