@@ -49,7 +49,7 @@
 
 
 ### TO-DO List
-please refer [todo.md](todo.md)
+please refer [Todo list](docs/todos/todo.md)
 
 ### Mentor
 * [Bharat Naik](https://github.com/bharatanaik)
@@ -64,3 +64,4 @@ please refer [todo.md](todo.md)
 * [Dilip B](https://github.com/DILIP-SHEESH)
 * [Harshitha M](https://github.com/Harshitham1204)
 * [Prithviraj K P](https://github.com/Prithvirajn)
+* [Aaron Rohan Raj](https://github.com/aaronrohan7)
