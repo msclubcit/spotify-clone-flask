@@ -56,7 +56,7 @@
     background-color:#a3a3a3 ;
     top: 75%;
     max-width: 100%;
-    width: 98%;
+    width: 100%;
     left: 0%;
     height: 25vh;
     mix-blend-mode: multiply;
@@ -84,13 +84,13 @@
     height: auto;
     position: absolute;
     left: 12%;
-    top: calc(50% + 10px);
+    top: calc(50% + 50px);
 }
 
 .main.intro p{
     position: absolute;
     color: #65758c;
-    top: calc(50% + 190px);
+    top: calc(50% + 240px);
     left: calc(50% + 10px);
     transform: translateX(-50%);
     font-weight: bold;
@@ -102,33 +102,33 @@
 
 .image1 {
     position: absolute;
-    top: 15%;
+    top: 50%;
     max-width: 100%;
-    left: 20%;
+    left: 52%;
     width: 145px;
     height: auto;
 }
 
 .image2 {
     position: absolute;
-    top: 15%;
-    left: 35%;
+    top:50%;
+    left: 75%;
     max-width: 100%;
     width: 145px;
     height: auto;
 }
 .image3 {
     position: absolute;
-    top: 15%;
-    left: 49%;
+    top: 50%;
+    left: 97%;
     max-width: 100%;
     width: 180px;
     height: auto;
 }
 .image4 {
     position: absolute;
-    top: 15%;
-    left: 67%;
+    top: 50%;
+    left: 127%;
     max-width: 100%;
     width: 320px;
     height: auto;
