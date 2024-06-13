@@ -5,32 +5,47 @@ Home
 {% endblock title %}
 
 {% block content %}
-<!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">-->
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">-
 <main>
-    <div class="main intro">
-        <h1><img src="{{ url_for('static', filename='Spotify_Logo_RGB_Green.png') }}" alt="Spotify_Logo_RGB_Green"></h1>
-        <p><b>-</b> Microsoft Student Club CIT</p>
-    </div>
-    <div class="background-image" ></div>
+    <div class="background" ></div>
     <div class="container">
-        <div class="wrapper">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="features">
-                        <h1></h1>
-                        <img class="image1" src="{{ url_for('static', filename='python-5-logo-png-transparent.png') }}" alt="python-5-logo-png-transparent">
-                        <img class="image2" src="{{ url_for('static', filename='1175208 (1).png') }}" alt="1175208 (1)">
-                        <img class="image3" src="{{ url_for('static', filename='bootstrap-logo.png') }}" alt="bootstrap-logo">
-                        <img class="image4" src="{{ url_for('static', filename='sqlite-icon-256x114-egn3lofe.png') }}" alt="sqlite-icon-256x114-egn3lofe">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="container1-sm container1">
+                    <img class="logo" src="{{ url_for('static', filename='Spotify-Black-and-White-Logo.png') }}" alt="Spotify-Black-and-White-Logo">
+                </div>
+                <div class="container2-sm container2"></div>
+            </div>
+            <div class="col-sm-9">
+                <div class="container1-lg container3">
+                    <div class="container2-lg container3-1">
+                        <div class="container2-lg-title title1">
+                            Popular artists
+                        </div>
+                    </div>
+                    <div class="container3-lg container3-2">
+                        <div class="container2-lg-title title2">
+                            Popular albums
+                        </div>
+                    </div>
+                    <div class="container4-lg container3-3">
+                        <div class="container2-lg-title title2">
+                            Popular radio
+                        </div>
+                    </div>
+                    <div class="container5-lg container3-4">
+                        <div class="container2-lg-title title2">
+                            Featured Charts
+                        </div>
+                    </div>
+                    <div class="container6-lg container3-5">
+                        <div class="container2-lg-title title2">
+                            Zzzzzzz
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </main>
-    <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
-
 {% endblock content %}
