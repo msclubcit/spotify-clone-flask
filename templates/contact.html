@@ -1,0 +1,37 @@
+{% extends 'base.html' %} {% block content %}
+<main>
+    <style>
+        .contact-info {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 300px;
+            margin: 2rem auto;
+            text-align: center;
+        }
+        
+        .contact-info h2 {
+            margin: 0 0 15px;
+            padding: 0;
+            color: #333;
+        }
+        
+        .contact-info p {
+            margin: 5px 0;
+            padding: 0;
+            color: #555;
+        }
+    </style>
+
+    <h3><strong>Contact Information</strong></h3>
+
+    <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Email:</strong> john.doe@example.com</p>
+        <p><strong>Phone:</strong> +1 234 567 890</p>
+        <p><strong>Address:</strong> 1234 Elm Street, Anytown, AN 56789</p>
+    </div>
+</main>
+{% endblock content %}
