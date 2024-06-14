@@ -19,4 +19,3 @@ def contact():
 @app.get('/disclaimer')
 def disclaimer():
     return render_template('disclaimer.html')
-

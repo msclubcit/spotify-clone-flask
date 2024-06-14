@@ -1,9 +1,51 @@
 {% extends 'base.html' %}
 
 {% block title %}
-
+Home
 {% endblock title %}
 
 {% block content %}
-
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">-
+<main>
+    <div class="background" ></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="container1-sm container1">
+                    <img class="logo" src="{{ url_for('static', filename='Spotify-Black-and-White-Logo.png') }}" alt="Spotify-Black-and-White-Logo">
+                </div>
+                <div class="container2-sm container2"></div>
+            </div>
+            <div class="col-sm-9">
+                <div class="container1-lg container3">
+                    <div class="container2-lg container3-1">
+                        <div class="container2-lg-title title1">
+                            Popular artists
+                        </div>
+                    </div>
+                    <div class="container3-lg container3-2">
+                        <div class="container2-lg-title title2">
+                            Popular albums
+                        </div>
+                    </div>
+                    <div class="container4-lg container3-3">
+                        <div class="container2-lg-title title2">
+                            Popular radio
+                        </div>
+                    </div>
+                    <div class="container5-lg container3-4">
+                        <div class="container2-lg-title title2">
+                            Featured Charts
+                        </div>
+                    </div>
+                    <div class="container6-lg container3-5">
+                        <div class="container2-lg-title title2">
+                            Zzzzzzz
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 {% endblock content %}
